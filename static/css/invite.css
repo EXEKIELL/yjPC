@@ -1,0 +1,231 @@
+#invite .banner {
+  width: 100%; }
+  #invite .banner img {
+    width: 100%; }
+#invite .main-wrap {
+  width: 1200px;
+  margin: auto; }
+  #invite .main-wrap .list1 {
+    position: relative;
+    margin-bottom: 60px;
+    margin-top: 80px; }
+    #invite .main-wrap .list1 .l1-title {
+      position: relative; }
+      #invite .main-wrap .list1 .l1-title .l1-title1 {
+        font-size: 21px;
+        color: #333333;
+        margin-bottom: 10px; }
+      #invite .main-wrap .list1 .l1-title .l1-title2 {
+        font-size: 12px;
+        color: #888888; }
+    #invite .main-wrap .list1 .l1-title::before {
+      content: '';
+      display: block;
+      border-left: 2px solid #604775;
+      position: absolute;
+      left: -10px;
+      top: 0;
+      height: 55%; }
+    #invite .main-wrap .list1 .l1-title::after {
+      content: '';
+      display: block;
+      border-left: 2px solid #604775;
+      position: absolute;
+      left: -10px;
+      bottom: 0;
+      height: 30%; }
+    #invite .main-wrap .list1 .l1-search {
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 0; }
+      #invite .main-wrap .list1 .l1-search .input {
+        padding: 16px 15px;
+        border: 1px solid #888888;
+        margin-right: 60px; }
+        #invite .main-wrap .list1 .l1-search .input input {
+          font-size: 16px;
+          color: #333333;
+          border: 0;
+          background-color: transparent; }
+      #invite .main-wrap .list1 .l1-search .btn {
+        position: absolute;
+        height: 99%;
+        width: 60px;
+        right: 0;
+        top: 0;
+        background-color: #333333; }
+        #invite .main-wrap .list1 .l1-search .btn button {
+          display: block;
+          width: 100%;
+          height: 100%;
+          background: url("../img/search01.png") no-repeat center;
+          background-size: 35%  auto; }
+      #invite .main-wrap .list1 .l1-search input::placeholder {
+        font-size: 16px;
+        color: #c8c8c8; }
+  #invite .main-wrap .list2 {
+    width: 100%;
+    height: 510px;
+    position: relative;
+    margin-bottom: 40px; }
+    #invite .main-wrap .list2 .swiper-bj {
+      width: 681px;
+      height: 510px;
+      background-color: #f2f2f2;
+      position: absolute; }
+    #invite .main-wrap .list2 .swiper-more {
+      width: 180px;
+      position: absolute;
+      z-index: 10;
+      top: 125px;
+      left: 210px; }
+      #invite .main-wrap .list2 .swiper-more button {
+        display: block;
+        font-size: 16px;
+        color: #ffffff;
+        width: 100%;
+        height: 100%;
+        background-color: #604775;
+        line-height: 50px; }
+    #invite .main-wrap .list2 .prevInvite, #invite .main-wrap .list2 .nextInvite {
+      width: 52px;
+      height: 50px; }
+    #invite .main-wrap .list2 .prevInvite {
+      left: initial;
+      top: initial;
+      bottom: 80px;
+      right: 325px;
+      background: url("../img/iconLeft01_use.png") no-repeat center #604775;
+      background-size: 20% auto; }
+    #invite .main-wrap .list2 .prevInvite.swiper-button-disabled {
+      opacity: 1;
+      background: url("../img/iconLeft01.png") no-repeat center #f6f6f6;
+      background-size: 20% auto; }
+    #invite .main-wrap .list2 .nextInvite {
+      right: 272px;
+      background: url("../img/iconRight01_use.png") no-repeat center #604775;
+      background-size: 20% auto;
+      top: initial;
+      bottom: 80px; }
+    #invite .main-wrap .list2 .nextInvite.swiper-button-disabled {
+      opacity: 1;
+      background: url("../img/iconRight01.png") no-repeat center #f6f6f6;
+      background-size: 20% auto; }
+    #invite .main-wrap .list2 .swiper-invite {
+      width: 80%;
+      left: 150px;
+      top: 105px; }
+      #invite .main-wrap .list2 .swiper-invite .swiper-wrapper {
+        width: 100%; }
+        #invite .main-wrap .list2 .swiper-invite .swiper-wrapper .swiper-slide {
+          width: 100% !important; }
+          #invite .main-wrap .list2 .swiper-invite .swiper-wrapper .swiper-slide .swiperImg {
+            width: 480px;
+            margin-right: 75px; }
+            #invite .main-wrap .list2 .swiper-invite .swiper-wrapper .swiper-slide .swiperImg img {
+              width: 100%; }
+          #invite .main-wrap .list2 .swiper-invite .swiper-wrapper .swiper-slide .swiperInfo {
+            font-size: 14px;
+            color: #666666;
+            width: 42%;
+            margin-top: 70px; }
+            #invite .main-wrap .list2 .swiper-invite .swiper-wrapper .swiper-slide .swiperInfo .info-1 {
+              font-size: 20px;
+              color: #333333;
+              font-weight: bold;
+              position: relative;
+              margin-bottom: 25px; }
+              #invite .main-wrap .list2 .swiper-invite .swiper-wrapper .swiper-slide .swiperInfo .info-1 .small {
+                font-size: 12px;
+                color: #888888;
+                margin-left: 10px; }
+            #invite .main-wrap .list2 .swiper-invite .swiper-wrapper .swiper-slide .swiperInfo .info-1::before {
+              content: '';
+              display: block;
+              width: 70px;
+              height: 1px;
+              background-color: #604775;
+              position: absolute;
+              top: 50%;
+              left: -95px; }
+            #invite .main-wrap .list2 .swiper-invite .swiper-wrapper .swiper-slide .swiperInfo .info-2 {
+              margin-bottom: 25px; }
+              #invite .main-wrap .list2 .swiper-invite .swiper-wrapper .swiper-slide .swiperInfo .info-2 > div {
+                float: left;
+                margin-right: 16px; }
+                #invite .main-wrap .list2 .swiper-invite .swiper-wrapper .swiper-slide .swiperInfo .info-2 > div i {
+                  width: 13px;
+                  height: 13px;
+                  display: inline-block;
+                  vertical-align: middle;
+                  margin-right: 8px; }
+                #invite .main-wrap .list2 .swiper-invite .swiper-wrapper .swiper-slide .swiperInfo .info-2 > div span {
+                  display: inline-block;
+                  vertical-align: middle; }
+              #invite .main-wrap .list2 .swiper-invite .swiper-wrapper .swiper-slide .swiperInfo .info-2 > div:last-child {
+                margin-right: 0; }
+              #invite .main-wrap .list2 .swiper-invite .swiper-wrapper .swiper-slide .swiperInfo .info-2 .i2-1 i {
+                background: url("../img/icon01.png") no-repeat center;
+                background-size: 90% auto; }
+              #invite .main-wrap .list2 .swiper-invite .swiper-wrapper .swiper-slide .swiperInfo .info-2 .i2-2 i {
+                background: url("../img/icon02.png") no-repeat center;
+                background-size: 70% auto; }
+              #invite .main-wrap .list2 .swiper-invite .swiper-wrapper .swiper-slide .swiperInfo .info-2 .i2-3 i {
+                background: url("../img/icon03.png") no-repeat center;
+                background-size: 95% auto; }
+            #invite .main-wrap .list2 .swiper-invite .swiper-wrapper .swiper-slide .swiperInfo .info-3 p {
+              line-height: 30px;
+              text-align: justify; }
+  #invite .main-wrap .list3 {
+    margin-bottom: 60px; }
+    #invite .main-wrap .list3 .swiper-invite01 {
+      padding: 30px 0; }
+      #invite .main-wrap .list3 .swiper-invite01 .swiper-wrapper .swiper-slide {
+        -webkit-transition: all 0.4s;
+        -moz-transition: all 0.4s;
+        -ms-transition: all 0.4s;
+        -o-transition: all 0.4s;
+        transition: all 0.4s; }
+        #invite .main-wrap .list3 .swiper-invite01 .swiper-wrapper .swiper-slide a {
+          display: block;
+          padding: 25px 5px;
+          background-color: #f2f2f2;
+          text-align: center; }
+          #invite .main-wrap .list3 .swiper-invite01 .swiper-wrapper .swiper-slide a > div {
+            display: inline-block;
+            margin: auto;
+            text-align: left; }
+            #invite .main-wrap .list3 .swiper-invite01 .swiper-wrapper .swiper-slide a > div .slide1 {
+              font-size: 16px;
+              color: #555555;
+              margin-bottom: 10px;
+              font-weight: bold; }
+              #invite .main-wrap .list3 .swiper-invite01 .swiper-wrapper .swiper-slide a > div .slide1 .small {
+                font-weight: lighter;
+                font-size: 10px;
+                color: #aaaaaa;
+                margin-left: 4px; }
+            #invite .main-wrap .list3 .swiper-invite01 .swiper-wrapper .swiper-slide a > div .slide2 {
+              font-size: 12px;
+              color: #888888; }
+      #invite .main-wrap .list3 .swiper-invite01 .swiper-wrapper .swiper-slide:hover {
+        -webkit-box-shadow: 1px 5px 10px rgba(51, 51, 51, 0.2);
+        -moz-box-shadow: 1px 5px 10px rgba(51, 51, 51, 0.2);
+        box-shadow: 1px 5px 10px rgba(51, 51, 51, 0.2);
+        -webkit-transform: translateY(-10px);
+        -moz-transform: translateY(-10px);
+        -ms-transform: translateY(-10px);
+        -o-transform: translateY(-10px);
+        transform: translateY(-10px); }
+        #invite .main-wrap .list3 .swiper-invite01 .swiper-wrapper .swiper-slide:hover a {
+          background-color: #604775;
+          color: #ffffff; }
+          #invite .main-wrap .list3 .swiper-invite01 .swiper-wrapper .swiper-slide:hover a > div .slide1 {
+            color: #ffffff; }
+            #invite .main-wrap .list3 .swiper-invite01 .swiper-wrapper .swiper-slide:hover a > div .slide1 .small {
+              color: #ffffff; }
+          #invite .main-wrap .list3 .swiper-invite01 .swiper-wrapper .swiper-slide:hover a > div .slide2 {
+            color: #ffffff; }
+
+/*# sourceMappingURL=invite.css.map */

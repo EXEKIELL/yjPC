@@ -1,0 +1,239 @@
+#productCenter {
+  background-color: #f2f2f2;
+  padding-bottom: 60px; }
+  #productCenter > div {
+    width: 1200px;
+    margin: auto;
+    text-align: center; }
+  #productCenter .list1 {
+    font-weight: lighter;
+    font-size: 16px;
+    color: #888888;
+    padding: 60px 0; }
+    #productCenter .list1 .title_1 {
+      font-size: 30px;
+      color: #333333;
+      margin-bottom: 15px; }
+  #productCenter .list2 {
+    background-color: #fff;
+    padding: 40px 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 25px; }
+    #productCenter .list2 .l2-1 {
+      display: inline-block;
+      margin-bottom: 40px; }
+      #productCenter .list2 .l2-1 ul {
+        border-bottom: 1px solid #e4e4e4; }
+        #productCenter .list2 .l2-1 ul li {
+          float: left;
+          font-size: 16px;
+          color: #666666;
+          padding: 15px;
+          cursor: pointer;
+          margin-right: 10px; }
+        #productCenter .list2 .l2-1 ul li:last-child {
+          margin-right: 0; }
+        #productCenter .list2 .l2-1 ul li.sel {
+          font-weight: bold;
+          color: #333333;
+          position: relative; }
+        #productCenter .list2 .l2-1 ul li.sel::after {
+          content: '';
+          display: block;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          border-bottom: 1px solid #604775;
+          width: 100%; }
+    #productCenter .list2 .l2-2 .swiper02 .swiper-wrapper .swiper-slide {
+      cursor: pointer; }
+      #productCenter .list2 .l2-2 .swiper02 .swiper-wrapper .swiper-slide .slide1 {
+        border: 1px solid #e6e6e6;
+        width: 90px;
+        height: 90px;
+        margin: auto;
+        margin-bottom: 15px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        overflow: hidden;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+        #productCenter .list2 .l2-2 .swiper02 .swiper-wrapper .swiper-slide .slide1 img {
+          width: 100%; }
+      #productCenter .list2 .l2-2 .swiper02 .swiper-wrapper .swiper-slide .slide1.default {
+        position: relative; }
+      #productCenter .list2 .l2-2 .swiper02 .swiper-wrapper .swiper-slide .slide1.default::before {
+        content: 'ICON';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        line-height: 90px;
+        color: #888888;
+        font-size: 14px;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      #productCenter .list2 .l2-2 .swiper02 .swiper-wrapper .swiper-slide .slide2 {
+        font-size: 14px;
+        color: #333333; }
+    #productCenter .list2 .l2-2 .swiper02 .swiper-wrapper .swiper-slide:hover .slide1 {
+      border: 1px solid #4d4d4d; }
+    #productCenter .list2 .l2-2 .swiper02 .swiper-wrapper .swiper-slide:hover .slide1.default::before {
+      color: #333333; }
+  #productCenter .list3 {
+    padding: 1px; }
+    #productCenter .list3 .l3-title {
+      font-weight: bold;
+      font-size: 18px;
+      color: #333333;
+      text-align: left;
+      padding: 20px 0; }
+    #productCenter .list3 .l3-cont {
+      height: 981px; }
+      #productCenter .list3 .l3-cont > div {
+        width: 49%; }
+      #productCenter .list3 .l3-cont .cont-1 {
+        height: 100%; }
+      #productCenter .list3 .l3-cont .listCont {
+        background-color: #fff;
+        height: 100%;
+        margin-bottom: 4%; }
+        #productCenter .list3 .l3-cont .listCont .lc1 {
+          padding: 20px;
+          height: 85%;
+          box-sizing: border-box;
+          -webkit-transition: all 0.5s;
+          -moz-transition: all 0.5s;
+          -ms-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s;
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          #productCenter .list3 .l3-cont .listCont .lc1 > div {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            height: 100%;
+            padding: 10px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s; }
+            #productCenter .list3 .l3-cont .listCont .lc1 > div img {
+              width: 100%;
+              margin: auto; }
+          #productCenter .list3 .l3-cont .listCont .lc1 .search {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            background: url("../img/search01.png") no-repeat center rgba(96, 71, 117, 0.5);
+            background-size: 35% auto;
+            display: none;
+            opacity: 0;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s; }
+        #productCenter .list3 .l3-cont .listCont .lc2 {
+          height: 15%;
+          padding: 20px 5px;
+          box-sizing: border-box;
+          -webkit-transition: all 0.5s;
+          -moz-transition: all 0.5s;
+          -ms-transition: all 0.5s;
+          -o-transition: all 0.5s;
+          transition: all 0.5s; }
+          #productCenter .list3 .l3-cont .listCont .lc2 > div {
+            text-align: left;
+            display: inline-block;
+            width: 85%; }
+            #productCenter .list3 .l3-cont .listCont .lc2 > div .lc2-1 {
+              font-size: 18px;
+              color: #333333;
+              margin-bottom: 15px;
+              -webkit-transition: all 0.5s;
+              -moz-transition: all 0.5s;
+              -ms-transition: all 0.5s;
+              -o-transition: all 0.5s;
+              transition: all 0.5s; }
+            #productCenter .list3 .l3-cont .listCont .lc2 > div .lc2-2 {
+              font-size: 14px;
+              color: #999999;
+              margin-bottom: 15px; }
+            #productCenter .list3 .l3-cont .listCont .lc2 > div .lc2-3 button {
+              padding: 0 30px;
+              line-height: 35px;
+              color: #ffffff;
+              background-color: #ede8e3;
+              font-size: 14px;
+              -webkit-transition: all 0.5s;
+              -moz-transition: all 0.5s;
+              -ms-transition: all 0.5s;
+              -o-transition: all 0.5s;
+              transition: all 0.5s; }
+      #productCenter .list3 .l3-cont .listContSmall .lc1 > div {
+        width: 548px;
+        height: 290px; }
+        #productCenter .list3 .l3-cont .listContSmall .lc1 > div img {
+          width: 80%; }
+      #productCenter .list3 .l3-cont .listCont:hover .lc1 {
+        background-color: rgba(96, 71, 117, 0.3);
+        position: relative; }
+        #productCenter .list3 .l3-cont .listCont:hover .lc1 > div {
+          border: 1px solid #f2f2f2; }
+        #productCenter .list3 .l3-cont .listCont:hover .lc1 .search {
+          display: block;
+          opacity: 1; }
+      #productCenter .list3 .l3-cont .listCont:hover .lc2 {
+        background-color: #efefef; }
+        #productCenter .list3 .l3-cont .listCont:hover .lc2 .lc2-1 {
+          color: #604775; }
+        #productCenter .list3 .l3-cont .listCont:hover .lc2 .lc2-3 button {
+          background-color: #604775;
+          color: #ffffff; }
+    #productCenter .list3 .l3-button {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+      #productCenter .list3 .l3-button button {
+        display: inline-block;
+        padding: 0 100px;
+        line-height: 60px;
+        color: #888888;
+        font-size: 16px;
+        background-color: #ede8e3;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -ms-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s; }
+      #productCenter .list3 .l3-button button:hover {
+        background-color: #604775;
+        color: #ffffff; }
+
+/*# sourceMappingURL=productCenter.css.map */

@@ -1,0 +1,49 @@
+#aboutUs{
+  .banner{
+    width: 100%;
+    img{
+      width: 100%;
+    }
+  }
+  .wrap{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    padding: 60px 0;
+  }
+  .nav01{
+    padding: 25px 0;
+    width: 5%;
+    position: relative;
+    left: -50px;
+    ul{
+      li{
+        margin-bottom: 30px;
+        a{
+          font-size: 14px;
+          color: #999999;
+        }
+      }
+      li.sel{
+        a{
+          color: #604775;
+          font-weight: bold;
+          position: relative;
+        }
+        a::after{
+          content: '';
+          display: block;
+          position: absolute;
+          border-left: 1px solid #604775;
+          top: 0;
+          left: -12px;
+          height: 100%;
+        }
+      }
+    }
+  }
+  .conts{
+    padding: 5px;
+    width: 94%;
+  }
+}

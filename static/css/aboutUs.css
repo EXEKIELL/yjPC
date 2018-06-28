@@ -1,0 +1,36 @@
+#aboutUs .banner {
+  width: 100%; }
+  #aboutUs .banner img {
+    width: 100%; }
+#aboutUs .wrap {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  padding: 60px 0; }
+#aboutUs .nav01 {
+  padding: 25px 0;
+  width: 5%;
+  position: relative;
+  left: -50px; }
+  #aboutUs .nav01 ul li {
+    margin-bottom: 30px; }
+    #aboutUs .nav01 ul li a {
+      font-size: 14px;
+      color: #999999; }
+  #aboutUs .nav01 ul li.sel a {
+    color: #604775;
+    font-weight: bold;
+    position: relative; }
+  #aboutUs .nav01 ul li.sel a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-left: 1px solid #604775;
+    top: 0;
+    left: -12px;
+    height: 100%; }
+#aboutUs .conts {
+  padding: 5px;
+  width: 94%; }
+
+/*# sourceMappingURL=aboutUs.css.map */
